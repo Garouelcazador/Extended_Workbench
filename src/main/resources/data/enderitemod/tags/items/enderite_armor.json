@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "extended_workbench:extended_enderite_helmet",
+    "extended_workbench:extended_enderite_chestplate",
+    "extended_workbench:extended_enderite_leggings",
+    "extended_workbench:extended_enderite_boots",
+    "extended_workbench:extended_enderite_elytra_chestplate"
+  ]
+}

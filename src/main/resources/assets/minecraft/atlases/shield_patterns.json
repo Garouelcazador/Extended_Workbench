@@ -1,0 +1,20 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "extended_workbench:entity/extended_shield_base"
+        },
+        {
+            "type": "single",
+            "resource": "extended_workbench:entity/extended_shield_base_nopattern"
+        },
+        {
+            "type": "single",
+            "resource": "extended_workbench:entity/extended_enderite_shield_base"
+        },
+        {
+            "type": "single",
+            "resource": "extended_workbench:entity/extended_enderite_shield_base_nopattern"
+        }
+    ]
+}

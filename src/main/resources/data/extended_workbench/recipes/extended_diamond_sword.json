@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " X ",
+    " X ",
+    " X ",
+    " X ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "extended_workbench:extended_diamond_sword"
+  },
+  "show_notification": true
+}

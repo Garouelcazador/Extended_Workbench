@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:ender_pearl"
+  },
+  "base": {
+    "item": "extended_workbench:extended_enderite_sword"
+  },
+  "addition": {
+    "item": "minecraft:ender_pearl"
+  },
+  "result": {
+    "item": "extended_workbench:extended_enderite_sword"
+  }
+}

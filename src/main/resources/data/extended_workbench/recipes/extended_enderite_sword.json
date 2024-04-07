@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "enderitemod:enderite_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "extended_workbench:extended_netherite_sword"
+  },
+  "addition": {
+    "item": "enderitemod:enderite_ingot"
+  },
+  "result": {
+    "item": "extended_workbench:extended_enderite_sword"
+  }
+}

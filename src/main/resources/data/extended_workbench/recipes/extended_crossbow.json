@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "$": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "&": {
+      "item": "minecraft:iron_ingot"
+    },
+    "~": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    "#&#",
+    "~$~",
+    "~&~",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "extended_workbench:extended_crossbow"
+  },
+  "show_notification": true
+}

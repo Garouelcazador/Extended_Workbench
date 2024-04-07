@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "o": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "WoW",
+    "WoW",
+    "WWW",
+    "WWW",
+    " W ",
+    " W "
+  ],
+  "result": {
+    "item": "extended_workbench:extended_shield"
+  },
+  "show_notification": true
+}

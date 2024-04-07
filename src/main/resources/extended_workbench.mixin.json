@@ -1,0 +1,39 @@
+{
+  "required": true,
+  "package": "com.garouelcazador.extended_workbench.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "client.SkeletonModelMixin"
+  ],
+  "mixins": [
+    "AbstractSkeletonMixin",
+    "BlockBehaviourMixin",
+    "BlockMixin",
+    "BowItemMixin",
+    "CraftingTableBlockMixin",
+    "CrossbowItemMixin",
+    "EnderiteBowItemMixin",
+    "EnderiteCrossbowItemMixin",
+    "EnderiteElytraSpecialRecipeMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MobMixin",
+    "PiglinBruteMixin",
+    "PiglinMixin",
+    "PillagerMixin",
+    "PlayerMixin",
+    "ServerEntityMixin",
+    "SmithingMenuMixin",
+    "VanillaPluginMixin",
+    "VexMixin",
+    "VindicatorMixin",
+    "WitherSkeletonMixin",
+    "ZombieMixin",
+    "ZombifiedPiglinMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "extended_workbench.mixin.refmap.json",
+  "minVersion": "0.8"
+}

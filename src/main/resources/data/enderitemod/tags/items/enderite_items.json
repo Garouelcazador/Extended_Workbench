@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "extended_workbench:extended_enderite_sword",
+    "extended_workbench:extended_enderite_shovel",
+    "extended_workbench:extended_enderite_pickaxe",
+    "extended_workbench:extended_enderite_axe",
+    "extended_workbench:extended_enderite_hoe",
+    "extended_workbench:extended_enderite_helmet",
+    "extended_workbench:extended_enderite_chestplate",
+    "extended_workbench:extended_enderite_leggings",
+    "extended_workbench:extended_enderite_boots",
+    "extended_workbench:extended_enderite_bow",
+    "extended_workbench:extended_enderite_crossbow",
+    "extended_workbench:extended_enderite_elytra_chestplate"
+  ]
+}

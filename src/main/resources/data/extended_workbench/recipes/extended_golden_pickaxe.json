@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "XX ",
+    " XX",
+    " #X",
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "extended_workbench:extended_golden_pickaxe"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "XX ",
+    " XX",
+    " #X",
+    " # ",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "extended_workbench:extended_wooden_pickaxe"
+  },
+  "show_notification": true
+}

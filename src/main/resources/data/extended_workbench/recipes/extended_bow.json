@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    " #X",
+    "# X",
+    "# X",
+    "# X",
+    "# X",
+    " #X"
+  ],
+  "result": {
+    "item": "extended_workbench:extended_bow"
+  },
+  "show_notification": true
+}
