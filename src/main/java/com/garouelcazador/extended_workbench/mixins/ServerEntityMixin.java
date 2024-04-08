@@ -14,11 +14,11 @@ import org.spongepowered.asm.mixin.injection.At;
 
 @Mixin(ServerEntity.class)
 public final class ServerEntityMixin {
-    @Shadow @Final private Entity entity;
+    //@Shadow @Final private Entity entity;
 
     private ServerEntityMixin(){}
 
-    @Expression("this.tickCount % this.updateInterval == 0")
+    /*@Expression("this.tickCount % this.updateInterval == 0")
     @Definition(id = "tickCount", field = "Lnet/minecraft/server/level/ServerEntity;tickCount:I")
     @Definition(id = "updateInterval", field = "Lnet/minecraft/server/level/ServerEntity;updateInterval:I")
     @WrapOperation(
@@ -27,5 +27,5 @@ public final class ServerEntityMixin {
     )
     private boolean extendedWorkbench$sendChanges(int left, int right, Operation<Boolean> original) {
         return original.call(left, right) || this.entity instanceof AbstractArrow arrow && arrow.getDeltaMovement().lengthSqr() > 16;
-    }
+    }*/
 }

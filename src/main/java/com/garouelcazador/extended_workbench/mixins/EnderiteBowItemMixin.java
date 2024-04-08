@@ -45,7 +45,8 @@ public final class EnderiteBowItemMixin {
         return f >= 1.3F && level.random.nextInt(4) == 0 ? arg + 1 : arg;
     }
 
-    @Expression("f == 1.0")
+
+    /*@Expression("f == 1.0")
     @Definition(id = "f", local = @Local(type = float.class))
     @WrapOperation(
             method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)V",
@@ -54,5 +55,5 @@ public final class EnderiteBowItemMixin {
     private boolean extendedWorkbench$releaseUsing(float left, float right, Operation<Boolean> original, ItemStack bowStack) {
         Item item = bowStack.getItem();
         return original.call(left, right) || item instanceof ExtendedEnderiteBow && left > right;
-    }
+    }*/
 }
